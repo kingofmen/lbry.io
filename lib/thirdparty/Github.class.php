@@ -79,6 +79,9 @@ class Github
 
     public static function get($endpoint, array $params = [], $cache = true)
     {
+        return null; # for local development, this line allows for iterative development without hitting the GitHub API
+        # disable above line for production
+
         $twoHoursInSeconds = 7200;
         if (Config::get(Config::GITHUB_APP_CLIENT_ID) && Config::get(Config::GITHUB_APP_CLIENT_SECRET))
         {
@@ -86,10 +89,10 @@ class Github
             $params['client_secret'] = Config::Get(Config::GITHUB_APP_CLIENT_SECRET);
         }
         return CurlWithCache::get(
-        'https://api.github.com' . $endpoint . '?' . http_build_query($params),
-        [],
-      ['headers' => ['Accept: application/vnd.github.v3.html+json'],'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
-    );
+            'https://api.github.com' . $endpoint . '?' . http_build_query($params),
+            [],
+          ['headers' => ['Accept: application/vnd.github.v3.html+json'],'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
+        );
     }
 
     public static function listRoadmapChangesets($cache = true)
