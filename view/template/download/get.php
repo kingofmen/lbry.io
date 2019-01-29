@@ -3,7 +3,7 @@
 <?php NavActions::setNavUri('/get') ?>
 
 <main class="ancillary">
-  <section class="hero">
+  <section class="hero hero--half-height">
     <div class="inner-wrap">
       <h1>
         <?php echo __('download.for-os', ['%os%' => $osTitle]) ?>
@@ -35,6 +35,7 @@
       <?php else: ?>
 
       <p>{{download.unavailable}}</p>
+
       <?php echo View::render('mail/_subscribeForm', [
         'tag' => $os,
         'submitLabel' => 'Join List',

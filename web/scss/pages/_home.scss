@@ -5,16 +5,6 @@
   }
 }
 
-.home__hero {
-  flex: 1;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-
-  .inner-wrap {
-    flex-direction: column;
-  }
-}
-
 .home__callout {
   background-image: linear-gradient(to right, $lbry-teal-2, $lbry-cyan-3 100%);
   background-size: cover;
@@ -46,6 +36,16 @@
     a:not(:last-of-type) {
       margin-right: 1rem;
     }
+  }
+}
+
+.home__hero {
+  flex: 1;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+
+  .inner-wrap {
+    flex-direction: column;
   }
 }
 

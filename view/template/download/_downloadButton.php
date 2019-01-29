@@ -8,6 +8,7 @@
       data-analytics-category="Sign Up"
       data-analytics-action="Download"
       data-analytics-label="<?php echo $analyticsLabel ?>"
+      title="Download our app"
     >Download Manus</a>
 
     <!--/
@@ -16,10 +17,11 @@
         <?php echo $buttonLabel ?>
     /-->
   <?php else: ?>
-    <a href="<?php echo $downloadUrl ?>" class="btn--google-play">
-      Download Manus
-      <!--/ <img alt="<?php echo $buttonLabel ?>" src="https://play.google.com/intl/en_us/badges/images/badge_new.png"/> /-->
-    </a>
+    <a
+      class="button button--google-play"
+      href="<?php echo $downloadUrl ?>"
+      title="Download our app"
+    >Download Manus</a>
   <?php endif ?>
 
   <?php if ($isAuto): ?>

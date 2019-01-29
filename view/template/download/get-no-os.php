@@ -2,7 +2,7 @@
 <?php Response::setMetaTitle(__('global.get')) ?>
 <?php Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-ui.png') ?>
 
-<main>
+<main class="ancillary">
   <section>
     <div class="inner-wrap">
       <?php echo View::render('download/_list', [

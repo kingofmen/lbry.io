@@ -3,7 +3,7 @@
 <?php NavActions::setNavUri('/news') ?>
 
 <main class="news ancillary">
-  <section class="hero --news"<?php echo $post->getCover() ? ' style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>>
+  <section class="hero hero--news"<?php echo $post->getCover() ? ' style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>>
     <div class="inner-wrap">
       <h1><?php echo htmlentities($post->getTitle()) ?></h1>
       <h2>

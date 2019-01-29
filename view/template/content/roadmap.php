@@ -7,7 +7,7 @@
 <?php js_end() ?>
 
 <main class="ancillary">
-  <section class="hero" style="background-image: url(/img/here-be-dragons.jpg)">
+  <section class="hero hero--half-height" style="background-image: url(/img/here-be-dragons.jpg)">
     <div class="inner-wrap">
       <h1>{{roadmap.title}}</h1>
       <h2>Past successes and future plans for the journey into the land of dragons.</h2>

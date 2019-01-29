@@ -36,7 +36,7 @@
 
   <div class="inner-wrap">
     <ul>
-      <li class="__free-speech"><a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" title="">Free Speech Flag</a></li>
+      <li class="free-speech"><a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" title="">Free Speech Flag</a></li>
       <li><a href="#" id="elevator" title="Scroll to the top of the page">Back to top</a></li>
     </ul>
 

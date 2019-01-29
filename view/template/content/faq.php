@@ -2,7 +2,7 @@
 <?php NavActions::setNavUri('/learn') ?>
 
 <main class="ancillary">
-  <section class="hero">
+  <section class="hero hero--half-height">
     <div class="inner-wrap">
       <h1>{{page.faq.header}}</h1>
     </div>

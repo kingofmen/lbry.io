@@ -1,5 +1,5 @@
 <main class="ancillary">
-  <section class="hero">
+  <section class="hero hero--half-height">
     <div class="inner-wrap">
       <h1>Page Not Found (404)</h1>
     </div>
