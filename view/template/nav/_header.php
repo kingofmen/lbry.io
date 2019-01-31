@@ -19,7 +19,7 @@
               <li class="flex-half">
                 <a href="/get">
                   <strong>Use LBRY</strong>
-                  <span>XYZXYZXYZ</span>
+                  <span>Get the most out of LBRY</span>
                 </a>
               </li>
 
@@ -33,25 +33,17 @@
               <li class="flex-half">
                 <a href="">
                   <strong>Blockchain Explorer</strong>
-                  <span>XYZXYZXYZ</span>
+                  <span>The history of LBRY’s blockchain</span>
                 </a>
               </li>
 
               <li class="flex-half">
-                <a href="">
+                <div>
                   <strong>Social</strong>
                   <span>Connect with the LBRY team on your favorite platform</span>
-                </a>
-
-                <!--/
-                <a href="">Discord</a>
-                <a href="">Facebook</a>
-                <a href="">GitHub</a>
-                <a href="">Instagram</a>
-                <a href="">Reddit</a>
-                <a href="">Telegram</a>
-                <a href="">Twitter</a>
-                /-->
+                  <a href="https://www.facebook.com/lbryio">Facebook</a>
+                  <a href="https://twitter.com/lbryio">Twitter</a>
+                </div>
               </li>
 
               <li class="flex-half">
@@ -71,7 +63,7 @@
               <li class="flex-half">
                 <a href="">
                   <strong>Chat</strong>
-                  <span>XYZXYZXYZ</span>
+                  <span>Chat with other LBRY users and LBRY team members</span>
                 </a>
               </li>
             </ul>
@@ -84,7 +76,7 @@
           <div class="header__navigation-children-wrap">
             <ul class="header__navigation-children inner-wrap">
               <li class="flex-half">
-                <a href="">
+                <a href="/youtube">
                   <strong>YouTube Partner Program</strong>
                   <span>Bring all your content to LBRY with just a few clicks</span>
                 </a>
@@ -98,7 +90,7 @@
               </li>
 
               <li class="flex-half">
-                <a href="">
+                <a href="https://lbry.fund">
                   <strong>Fund a Project</strong>
                   <span>How to to get some LBC for your latest idea or project</span>
                 </a>
@@ -136,7 +128,7 @@
               <li class="flex-half">
                 <a href="/join-us">
                   <strong>Join Us</strong>
-                  <span>XYZXYZXYZ</span>
+                  <span>Work with the LBRY team</span>
                 </a>
               </li>
 
@@ -148,7 +140,7 @@
               </li>
 
               <li class="flex-half">
-                <a href="">
+                <a href="/credit-reports">
                   <strong>Credit Reports</strong>
                   <span>Four times a year we share the current state of LBRY, Inc.'s balance sheet</span>
                 </a>
@@ -177,14 +169,14 @@
               </li>
 
               <li class="flex-half">
-                <a href="">
+                <a href="https://lbry.tech/contribute">
                   <strong>Contributor's Guide</strong>
                   <span>Tips and guidelines for being a contributor to the LBRY projects</span>
                 </a>
               </li>
 
               <li class="flex-half">
-                <a href="">
+                <a href="https://forum.lbry.tech">
                   <strong>Forum</strong>
                   <span>If you have a question for the LBRY, Inc. development team, post it here</span>
                 </a>
