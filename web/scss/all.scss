@@ -1,11 +1,17 @@
 @charset "utf-8";
 
 @import "color/lbry-color";
-@import "../components/sass/index";
+
+@import "../components/sass/init/mixins";
+@import "../components/sass/init/variables";
+@import "../components/sass/init/reset";
+@import "../components/sass/init/animation";
 @import "../components/sass/badge/index";
 @import "../components/sass/button/index";
 @import "../components/sass/form/index";
-@import "icons";
+@import "../components/sass/media/index";
+
+// @import "icons";
 
 @import "partials/footer";
 @import "partials/header";
