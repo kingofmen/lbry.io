@@ -52,358 +52,48 @@
   }
 }
 
-// Shared icons
+// Icons we actually use
 
-.icon-life-bouy::before,
-.icon-life-buoy::before,
-.icon-life-ring::before
-.icon-life-saver::before,
-.icon-support::before {
-  content: "\f1cd";
+.icon-android::before {
+  content: "\f17b";
 }
 
-
-
-.icon-cny::before,
-.icon-jpy::before,
-.icon-rmb::before,
-.icon-yen::before {
-  content: "\f157";
+.icon-apple::before {
+  content: "\f179";
 }
 
-
-
-.icon-bank::before,
-.icon-institution::before,
-.icon-university::before {
-  content: "\f19c";
+.icon-facebook-official::before {
+  content: "\f230";
 }
 
-.icon-bars::before,
-.icon-navicon::before,
-.icon-reorder::before {
-  content: "\f0c9";
+.icon-facebook-square::before {
+  content: "\f082";
 }
 
-.icon-close::before,
-.icon-remove::before,
-.icon-times::before {
-  content: "\f00d";
+.icon-linux::before {
+  content: "\f17c";
 }
 
-.icon-file-image-o::before,
-.icon-file-photo-o::before,
-.icon-file-picture-o::before {
-  content: "\f1c5";
-}
-
-.icon-ils::before,
-.icon-shekel::before,
-.icon-sheqel::before {
-  content: "\f20b";
-}
-
-.icon-image::before,
-.icon-photo::before,
-.icon-picture-o::before {
-  content: "\f03e";
-}
-
-.icon-rouble::before,
-.icon-rub::before,
-.icon-ruble::before {
-  content: "\f158";
-}
-
-.icon-star-half-empty::before,
-.icon-star-half-full::before,
-.icon-star-half-o::before {
-  content: "\f123";
-}
-
-
-
-.icon-automobile::before,
-.icon-car::before {
-  content: "\f1b9";
-}
-
-.icon-bar-chart::before,
-.icon-bar-chart-o::before {
-  content: "\f080";
-}
-
-.icon-bed::before,
-.icon-hotel::before {
-  content: "\f236";
-}
-
-.icon-bitcoin::before,
-.icon-btc::before {
-  content: "\f15a";
-}
-
-.icon-bolt::before,
-.icon-flash::before {
-  content: "\f0e7";
-}
-
-.icon-cab::before,
-.icon-taxi::before {
-  content: "\f1ba";
-}
-
-.icon-caret-square-o-down::before,
-.icon-toggle-down::before {
-  content: "\f150";
-}
-
-.icon-caret-square-o-left::before,
-.icon-toggle-left::before {
-  content: "\f191";
-}
-
-.icon-caret-square-o-right::before,
-.icon-toggle-right::before {
-  content: "\f152";
-}
-
-.icon-caret-square-o-up::before,
-.icon-toggle-up::before {
-  content: "\f151";
-}
-
-.icon-chain::before,
-.icon-link::before {
-  content: "\f0c1";
-}
-
-.icon-chain-broken::before,
-.icon-unlink::before {
-  content: "\f127";
-}
-
-.icon-circle-thin::before,
-.icon-genderless::before {
-  content: "\f1db";
-}
-
-.icon-clipboard::before,
-.icon-paste::before {
-  content: "\f0ea";
-}
-
-.icon-cog::before,
-.icon-gear::before {
-  content: "\f013";
-}
-
-.icon-cogs::before,
-.icon-gears::before {
-  content: "\f085";
-}
-
-.icon-copy::before,
-.icon-files-o::before {
-  content: "\f0c5";
-}
-
-.icon-cut::before,
-.icon-scissors::before {
-  content: "\f0c4";
-}
-
-.icon-dashboard::before,
-.icon-tachometer::before {
-  content: "\f0e4";
-}
-
-.icon-dedent::before,
-.icon-outdent::before {
-  content: "\f03b";
-}
-
-.icon-dollar::before,
-.icon-usd::before {
-  content: "\f155";
-}
-
-.icon-edit::before,
-.icon-pencil-square-o::before {
-  content: "\f044";
-}
-
-.icon-empire::before,
-.icon-ge::before {
-  content: "\f1d1";
-}
-
-.icon-eur::before,
-.icon-euro::before {
-  content: "\f153";
-}
-
-.icon-exclamation-triangle::before,
-.icon-warning::before {
-  content: "\f071";
-}
-
-.icon-facebook::before,
-.icon-facebook-f::before {
-  content: "\f09a";
-}
-
-.icon-file-archive-o::before,
-.icon-file-zip-o::before {
-  content: "\f1c6";
-}
-
-.icon-file-audio-o::before,
-.icon-file-sound-o::before {
-  content: "\f1c7";
-}
-
-.icon-file-movie-o::before,
-.icon-file-video-o::before {
-  content: "\f1c8";
-}
-
-.icon-floppy-o::before,
-.icon-save::before {
-  content: "\f0c7";
-}
-
-.icon-futbol-o::before,
-.icon-soccer-ball-o::before {
-  content: "\f1e3";
-}
-
-.icon-gavel::before,
-.icon-legal::before {
-  content: "\f0e3";
-}
-
-.icon-gittip::before,
-.icon-gratipay::before {
-  content: "\f184";
-}
-
-.icon-graduation-cap::before,
-.icon-mortar-board::before {
-  content: "\f19d";
-}
-
-.icon-group::before,
-.icon-users::before {
-  content: "\f0c0";
-}
-
-.icon-inr::before,
-.icon-rupee::before {
-  content: "\f156";
-}
-
-.icon-krw::before,
-.icon-won::before {
-  content: "\f159";
-}
-
-.icon-mail-forward::before,
-.icon-share::before {
-  content: "\f064";
-}
-
-.icon-mail-reply::before,
-.icon-reply::before {
-  content: "\f112";
-}
-
-.icon-mail-reply-all::before,
-.icon-reply-all::before {
-  content: "\f122";
-}
-
-.icon-mobile::before,
-.icon-mobile-phone::before {
+.icon-mobile::before {
   content: "\f10b";
 }
 
-.icon-paper-plane::before,
-.icon-send::before {
-  content: "\f1d8";
+.icon-reddit::before {
+  content: "\f1a1";
 }
 
-.icon-paper-plane-o::before,
-.icon-send-o::before {
-  content: "\f1d9";
+.icon-reddit-square::before {
+  content: "\f1a2";
 }
 
-.icon-ra::before,
-.icon-rebel::before {
-  content: "\f1d0";
+.icon-twitter::before {
+  content: "\f099";
 }
 
-.icon-repeat::before,
-.icon-rotate-right::before {
-  content: "\f01e";
+.icon-twitter-square::before {
+  content: "\f081";
 }
 
-.icon-rotate-left::before,
-.icon-undo::before {
-  content: "\f0e2";
+.icon-windows::before {
+  content: "\f17a";
 }
-
-.icon-sort::before,
-.icon-unsorted::before {
-  content: "\f0dc";
-}
-
-.icon-sort-asc::before,
-.icon-sort-up::before {
-  content: "\f0de";
-}
-
-.icon-sort-desc::before,
-.icon-sort-down::before {
-  content: "\f0dd";
-}
-
-.icon-try::before,
-.icon-turkish-lira::before {
-  content: "\f195";
-}
-
-.icon-wechat::before,
-.icon-weixin::before {
-  content: "\f1d7";
-}
-
-
-
-// Individual icons
-
-@import "icons/a";
-@import "icons/b";
-@import "icons/c";
-@import "icons/d";
-@import "icons/e";
-@import "icons/f";
-@import "icons/g";
-@import "icons/h";
-@import "icons/i";
-@import "icons/j";
-@import "icons/k";
-@import "icons/l";
-@import "icons/m";
-@import "icons/n";
-@import "icons/o";
-@import "icons/p";
-@import "icons/q";
-@import "icons/r";
-@import "icons/s";
-@import "icons/t";
-@import "icons/u";
-@import "icons/v";
-@import "icons/w";
-@import "icons/x";
-@import "icons/y";

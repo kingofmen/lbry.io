@@ -7,7 +7,7 @@
   <div class="notice notice-error spacer1"><?php echo $error ?></div>
   <?php endif ?>
 
-  <fieldset class="mail-submit">
+  <div class="fieldset"> <!--/ native `fieldset` cannot use flexbox in Chromium /-->
     <input type="email" name="email" placeholder="{{email.placeholder}}" required>
     <input type="hidden" name="returnUrl" value="<?php echo $returnUrl ?>"/>
 
@@ -16,7 +16,7 @@
     <?php endif ?>
 
     <input type="submit" value="<?php echo $submitLabel ?? __('email.subs') ?>" name="subscribe">
-  </fieldset>
+  </div>
 
   <?php if (!($hideDisclaimer ?? false)): ?>
   <small class="meta">{{email.disclaimer}}</small>
