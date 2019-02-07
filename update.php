@@ -16,7 +16,7 @@ if (!$force && !file_exists($needsUpdateFile)) {
 
 chdir(ROOT_DIR);
 
-Shell::exec('git fetch && git reset --hard origin/master');
+Shell::exec('git fetch && git reset --hard origin/904-unify');
 Shell::exec('php composer.phar install');
 
 View::compileCss();
